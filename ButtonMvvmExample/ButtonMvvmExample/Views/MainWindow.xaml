@@ -1,0 +1,19 @@
+<Window xmlns="https://github.com/avaloniaui"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:vm="clr-namespace:ButtonMvvmExample.ViewModels;assembly=ButtonMvvmExample"
+        Icon="resm:ButtonMvvmExample.Assets.avalonia-logo.ico"
+        Title="ButtonMvvmExample">
+
+  <Design.DataContext>
+    <vm:MainWindowViewModel/>
+  </Design.DataContext>
+
+  <StackPanel Gap="4">
+    <Button Content="Click Me!" Command="{Binding OnButtonClick}" />
+    <Button Content="Click Me! Command Binding" Command="{Binding ClickCommand}" />
+  </StackPanel>
+
+
+
+
+</Window>

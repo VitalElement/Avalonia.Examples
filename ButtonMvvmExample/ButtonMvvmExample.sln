@@ -1,0 +1,22 @@
+
+Microsoft Visual Studio Solution File, Format Version 12.00
+# 
+MinimumVisualStudioVersion = 10.0.40219.1
+VisualStudioVersion = 15.0.27009.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ButtonMvvmExample", "ButtonMvvmExample\ButtonMvvmExample.csproj", "{0670CAC8-EB1B-4759-85FC-7B445A594496}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0670CAC8-EB1B-4759-85FC-7B445A594496}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0670CAC8-EB1B-4759-85FC-7B445A594496}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0670CAC8-EB1B-4759-85FC-7B445A594496}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0670CAC8-EB1B-4759-85FC-7B445A594496}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(AvalonStudioProperties) = preSolution
+		StartupItem = {0670CAC8-EB1B-4759-85FC-7B445A594496}
+	EndGlobalSection
+EndGlobal
