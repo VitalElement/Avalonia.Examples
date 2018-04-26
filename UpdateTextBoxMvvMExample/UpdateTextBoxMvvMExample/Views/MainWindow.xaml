@@ -1,0 +1,19 @@
+<Window xmlns="https://github.com/avaloniaui"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:vm="clr-namespace:UpdateTextBoxMvvMExample.ViewModels;assembly=UpdateTextBoxMvvMExample"
+        Icon="resm:UpdateTextBoxMvvMExample.Assets.avalonia-logo.ico"
+        Title="UpdateTextBoxMvvMExample">
+
+  <Design.DataContext>
+    <vm:MainWindowViewModel/>
+  </Design.DataContext>
+
+  <StackPanel Gap="4">
+    <TextBlock Text="{Binding TextBoxText}" />
+
+    <TextBlock Text="{Binding #textBox1.Text}" />
+
+    <TextBox Text="{Binding TextBoxText}" Name="textBox1" />
+  </StackPanel>
+
+</Window>
